@@ -9,6 +9,7 @@ This project provides a Node.js Express API that fetches air quality data from t
 - [Running the Application](#running-the-application)
 - [File Structure](#file-structure)
 - [API Endpoints](#api-endpoints)
+- [Cron Jobs](#api-endpoints)
 - [Running Tests](#running-tests)
 - [Technologies Used](#technologies-used)
 
@@ -122,6 +123,10 @@ GET /api/most-polluted
   "mainus": "p2"
 }
 ```
+## Cron Jobs
+
+### `parisZoneAirQualityJob`
+This Job is to check “ air quality “ for the Paris zone ( latitude: 48.856613 ,longitude: 2.352222) every 1 minute then save them in the database.
 
 ## Running Tests
 
