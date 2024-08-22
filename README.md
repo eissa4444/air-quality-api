@@ -27,13 +27,13 @@ This project provides a Node.js Express API that fetches air quality data from t
 Create a `.env` file in the root of your project and set the following environment variables:
 
 ```env
-IQAIR_API_KEY=066a42e6-0857-4ee5-bdf3-557d28f20c2b
+IQAIR_API_KEY=<api_key>
 IQAIR_BASE_URL=http://api.airvisual.com/v2
-MONGO_URI=mongodb+srv://muhamadeissa92:CGua4G8oy13MSRBx@cluster0.3xqm3j5.mongodb.net/air-quality-db?retryWrites=true&w=majority&appName=Cluster0
+MONGO_URI=<Mongo_connection_string>
 PORT=3000
 LATITUDE=48.856613
 LONGITUDE=2.352222
-CRON_PATTERN=* * * * * 
+CRON_PATTERN=* * * * * //evey 1 min
 ```
 
 ## Running the Application
