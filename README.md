@@ -147,4 +147,3 @@ The tests are located in the `tests/` directory and cover the API routes and use
 - **Jest**: Testing framework
 - **Supertest**: HTTP assertions for testing Express routes
 - **Axios**: HTTP client for API requests
-- 
